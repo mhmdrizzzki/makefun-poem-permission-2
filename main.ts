@@ -17,6 +17,7 @@ const poem = [
   "for something of mine,",
   "your name smaller",
   "than I remembered making it.",
+  // No trailing newline: the file ends without a trailing blank line.
 ].join("\n");
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
